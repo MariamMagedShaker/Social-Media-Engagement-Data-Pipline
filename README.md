@@ -93,20 +93,13 @@ airflow standalone          #instead of airflow scheduler& airflow api-server
 
 Power BI dashboards were created using marts and staging data from the dbt models. Below are some of the key visualizations:
 
+- 🔢 **KPI Tiles for Total Posts, Likes, Shares, and Comments**
+- 🌐 **Geographical Engagement by Country**  
+- 🔁 **Virality Trend by Month and Year**
 - 📊 **Heatmap of Hourly Engagement by Day**  
 - 💬 **Post Sentiment Breakdown (Positive / Neutral / Negative)**  
 - 🌍 **Average Interaction Rate by Platform Over Time**  
-- 🌐 **Geographical Engagement by Country**  
-- 🔁 **Virality Trend by Month and Year**
-- 🔢 **KPI Tiles for Total Posts, Likes, Shares, and Comments**
 
-## 📊 Dashboards
 
-### 📌 Dashboard Page 1: Campaign, Sentiment, and Time Insights
 
-![Dashboard 1](./assets/page_1.PNG)
-
-### 📌 Dashboard Page 2: Global Metrics and Virality Trends
-
-![Dashboard 2](./assets/page_2.PNG)
 
