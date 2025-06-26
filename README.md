@@ -59,9 +59,9 @@ your_profile_name:
       threads: 4
       client_session_keep_alive: true
 
----
+```
 
-## 🧠 How to Run
+## How to Run DBT
 
 ```bash
 # Setup Python env and install dependencies
@@ -75,7 +75,10 @@ dbt run
 dbt test     # to run the test
 dbt docs generate     # dbt automatic generate for documentation
 dbt docs serve --port 8088  # to view the documenation  
+```
+## How to Run Airflow
 
+```bash
 # Run Airflow for orchestration
 pip install apache-airflow              
 pip install apache-airflow-providers-snowflake 
@@ -84,8 +87,8 @@ mkdir -p ~/airflow/dags
 nano ~/airflow/dags/dbt_dag.py       
 airflow db migrate          
 airflow standalone          #instead of airflow scheduler& airflow api-server
-
----   
+```
+--- 
 ## 📈 Visual Analysis
 
 Power BI dashboards were created using marts and staging data from the dbt models. Below are some of the key visualizations:
@@ -96,8 +99,6 @@ Power BI dashboards were created using marts and staging data from the dbt model
 - 🌐 **Geographical Engagement by Country**  
 - 🔁 **Virality Trend by Month and Year**
 - 🔢 **KPI Tiles for Total Posts, Likes, Shares, and Comments**
-
----
 
 ## 📊 Dashboards
 
