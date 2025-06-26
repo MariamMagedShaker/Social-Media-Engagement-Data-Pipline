@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: SOCIAL_ENGAGE             # Your Snowflake database
+    schema: snow_schema             # Schema where data is stored
+    tables:
+      - name: BRAND_DIM
+      - name: CAMPAIGN_PHASE_DIM
+      - name: CONTENT_DIM
+      - name: LANGUAGE_DIM
+      - name: PLATFORM_DIM
+      - name: PRODUCT_DIM
+      - name: TIME_DIM
+      - name: TOPIC_CATEGORY_DIM
+      - name: USER_DIM
+      - name: SENTIMENT_DIM 
+      - name: FACT_TABLE
+      

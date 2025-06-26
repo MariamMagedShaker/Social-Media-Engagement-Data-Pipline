@@ -1,0 +1,6 @@
+SELECT 
+    USER_ID ,
+    SPLIT_PART(LOCATION , ',', 1) AS CITY,
+    TRIM(SPLIT_PART(LOCATION , ',', 2)) AS COUNTRY,
+    LANGUAGE_ID 
+FROM {{ source('raw_data', 'USER_DIM') }}
