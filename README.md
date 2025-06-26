@@ -101,5 +101,15 @@ Power BI dashboards were created using marts and staging data from the dbt model
 - 🌍 **Average Interaction Rate by Platform Over Time**  
 
 
+---
 
+## 📊 Dashboards
+
+#### 📌 Dashboard Page 1: KPI Tiles, Geographical Engagement and Virality Trend
+
+![Dashboard 1](./assets/page_1.PNG)
+
+#### 📌 Dashboard Page 2: Hourly Engagement, Post Sentiment Breakdown and Interaction Rate by Platform
+
+![Dashboard 2](./assets/page_2.PNG)
 
